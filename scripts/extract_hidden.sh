@@ -10,7 +10,7 @@ for model_name in "${model_names[@]}"; do
     for i in 24 -1; do
         echo $model_name
         echo $i
-        python -m self_knowledge.evaluation.extract_hidden_layers --model-name=$model_name --hidden-layer-index=$i --save-file=../models/$model_name/lama3_hlayer_$i.pt --dataset-path=/home/mmahaut/data/reduced_trex_train
+        python -m self_knowledge.evaluation.extract_hidden_layers --model-name=$model_name --hidden-layer-index=$i --save-file=../models/$model_name/lama3_hlayer_$i.pt --dataset-path=../data/reduced_trex_train
         python -m self_knowledge.evaluation.train_scorer_2 --hidden-path=../models/$model_name/lama3_hlayer_$i.pt --out-name=../models/lama_hidden_scorer/$model_name/lama3_hscorer_$i
     done
 done

@@ -81,6 +81,18 @@ on Reliability and Robustness of Current Estimators"*]() Proceedings of the 62nd
 
 ```
 @inproceedings{mahaut-etal-2024-factual,
+    title = "Factual Confidence of LLMs: on Reliability and Robustness of Current Estimators",
+    author="Mahaut, Mat{\'e}o and
+                  Aina, Laura and 
+                  Czarnowska, Paula and 
+                  Hardalov, Momchil and 
+                  M{\"u}ller, Thomas and 
+                  M{\`a}rquez, Llu{\'\i}s",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL)",
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://arxiv.org/abs/2406.13415",
 }
 ```
 
