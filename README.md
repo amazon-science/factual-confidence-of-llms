@@ -1,6 +1,9 @@
 # Factual Confidence of LLMs: on Reliability and Robustness of Current Estimators
-This repository contains the code used for experiments from: [https://arxiv.org/abs/2406.13415](Factual Confidence of LLMs: on Reliability and Robustness of Current Estimators).
+
+This repository contains the code used for experiments from: [Factual Confidence of LLMs: on Reliability and Robustness of Current Estimators](https://arxiv.org/abs/2406.13415).
+
 ![Descriptive diagram of a sentence being processed by multiple testing methods](Fact_Conf.png)
+
 This repository regroups 5 types of Methods used to estimate factual confidence in LLMs, which can then be used to reproduce experiments and test them on question answering datasets: 
 - Verbalised (prompt based)
 - Trained probe (requires training)
