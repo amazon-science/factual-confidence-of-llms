@@ -72,7 +72,7 @@ example scripts: scripts/sf.sh, scripts/sampling.sh
 
 ## References
 
-Please cite as [[1]](https://www.aclweb.org/anthology/).
+Please cite as [[1]](https://arxiv.org/abs/2406.13415).
 
 
 [1] M. Mahaut, L. Aina, P. Czarnowska, M. Hardalov, T. Müller, L. Màrquez ["*Factual Confidence of LLMs:
