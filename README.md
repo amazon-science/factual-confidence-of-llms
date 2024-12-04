@@ -1,6 +1,6 @@
 # Factual Confidence of LLMs: on Reliability and Robustness of Current Estimators
 
-This repository contains the code used for experiments from: [Factual Confidence of LLMs: on Reliability and Robustness of Current Estimators](https://arxiv.org/abs/2406.13415).
+This repository contains the code used for experiments from: [Factual Confidence of LLMs: on Reliability and Robustness of Current Estimators](https://aclanthology.org/2024.acl-long.250/).
 
 ![Descriptive diagram of a sentence being processed by multiple testing methods](Fact_Conf.png)
 
@@ -75,7 +75,7 @@ example scripts: scripts/sf.sh, scripts/sampling.sh
 
 ## References
 
-Please cite as [[1]](https://arxiv.org/abs/2406.13415).
+Please cite as [[1]](https://aclanthology.org/2024.acl-long.250/).
 
 
 [1] M. Mahaut, L. Aina, P. Czarnowska, M. Hardalov, T. Müller, L. Màrquez ["*Factual Confidence of LLMs:
@@ -84,18 +84,19 @@ on Reliability and Robustness of Current Estimators"*]() Proceedings of the 62nd
 
 ```
 @inproceedings{mahaut-etal-2024-factual,
-    title = "Factual Confidence of LLMs: on Reliability and Robustness of Current Estimators",
-    author="Mahaut, Mat{\'e}o and
-                  Aina, Laura and 
-                  Czarnowska, Paula and 
-                  Hardalov, Momchil and 
-                  M{\"u}ller, Thomas and 
-                  M{\`a}rquez, Llu{\'\i}s",
-    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL)",
+    title = "Factual Confidence of {LLM}s: on Reliability and Robustness of Current Estimators",
+    author = {Mahaut, Mat{\'e}o  and
+      Aina, Laura  and
+      Czarnowska, Paula  and
+      Hardalov, Momchil  and
+      M{\"u}ller, Thomas  and
+      M{\`a}rquez, Llu{\'\i}s",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
     year = "2024",
     address = "Bangkok, Thailand",
     publisher = "Association for Computational Linguistics",
-    url = "https://arxiv.org/abs/2406.13415",
+    url = "https://aclanthology.org/2024.acl-long.250",
+    pages = "4554--4570"
 }
 ```
 
